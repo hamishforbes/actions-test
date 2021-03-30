@@ -3,7 +3,7 @@ on:
   push: {}
 jobs:
   test:
-    timeout-minutes: 10
+    timeout-minutes: 60
     runs-on: ubuntu-latest
     #runs-on: ["self-hosted", "huge"]
     container:
